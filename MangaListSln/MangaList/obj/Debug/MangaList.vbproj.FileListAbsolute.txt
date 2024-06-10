@@ -1,0 +1,12 @@
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\bin\Debug\MangaList.exe.config
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\bin\Debug\MangaList.exe
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\bin\Debug\MangaList.pdb
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\bin\Debug\MangaList.xml
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\obj\Debug\MangaList.vbprojAssemblyReference.cache
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\obj\Debug\MangaList.MainForm.resources
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\obj\Debug\MangaList.Resources.resources
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\obj\Debug\MangaList.vbproj.GenerateResource.cache
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\obj\Debug\MangaList.vbproj.CoreCompileInputs.cache
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\obj\Debug\MangaList.exe
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\obj\Debug\MangaList.xml
+C:\Users\w1596\Documents\programming @ home\MangaListSln\MangaList\obj\Debug\MangaList.pdb
