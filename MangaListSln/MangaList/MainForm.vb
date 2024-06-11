@@ -8,6 +8,7 @@ Option Strict On
 
 Imports System.Collections.Generic
 Imports System.Linq
+Imports System.IO
 
 Public Class MainForm
 
@@ -403,11 +404,22 @@ Public Class MainForm
     Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted  ''got this code off of youtube
         Dim PageElements As HtmlElementCollection = WebBrowser1.Document.GetElementsByTagName("img")
         Dim pictureCounter As Integer = 0
+        Dim userName As String = Environment.UserName
+        Dim directoryPath As String = "C:\Users\" & userName & "\Downloads\MangaListPages"
+
+        ' Check if directory does not exist
+        If Not Directory.Exists(directoryPath) Then
+            ' Create a new directory
+            Directory.CreateDirectory(directoryPath)
+        End If
+
+        directoryPath = directoryPath & "\"
+
         downloadLabel.Visible = True
         downloadLabel.Text = "Downloading..."
         For Each CurElement As HtmlElement In PageElements
             Dim pictureURL = urlTextBox.Text()
-            Dim pictureLocation = "C:\Users\w1596\Downloads\MangaListDownloadTester\" & pictureCounter.ToString() & ".png"
+            Dim pictureLocation = directoryPath & pictureCounter.ToString() & ".png"
             My.Computer.Network.DownloadFile(CurElement.GetAttribute("src"), pictureLocation)
             pictureCounter += 1
         Next
