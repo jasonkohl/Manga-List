@@ -1,4 +1,4 @@
-**How to use:**
+**How to use:** (WINDOWS ONLY)
 1) Download files
 2) Extract files
 3) Navigate to the file directory **Manga-List-main\Manga-List-main\MangaListSln\MangaList\bin\Debug**
